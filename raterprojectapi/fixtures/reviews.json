@@ -1,0 +1,29 @@
+[
+	{
+		"model": "raterprojectapi.review",
+		"pk": 1,
+		"fields": {
+			"review": "I love Monopoly. Have very fond memories of playing this while growing up. When my boys were growing up we started Friday night game night. Monopoly was always our favorite. When I went to see my sons and granddaughter I ordered this to have for our visit. I started my granddaughter on Friday night game night. She had never played Monopoly before and loved it. I’m proud to say that after I left they’ve continued with this Friday night tradition. I love this particular issue because it’s the closest one to the tokens I grew up with. And also my boys. I’m so happy my granddaughter has the chance to play it old school. I’m old school and do not like all these other different versions of Monopoly. I like the interaction between players. I especially do not like the electronic version. But I guess that’s just me. I would encourage parents or grandparents to start a family game night. It made for great memories for my boys. And now for my granddaughter as well!",
+			"player": 1,
+			"game": 1
+		}
+	},
+	{
+		"model": "raterprojectapi.review",
+		"pk": 1,
+		"fields": {
+			"review": "I introduced this game to my husband who never had board games growing up (he's from a developing country), and we had a lot of fun playing it. I grew up with this game and I hope one day our future kids will love this game as much as I do! Also, this version seems to have more complexities (such as buying a version of 'stock') than the one from when I was younger, which is pretty cool and I think makes it more adult-friendly as well. Whoever has the most money at the end of the game still wins, which I think is hilarious as it's an interesting reflection on our societal values! An added bonus XD!",
+			"player": 1,
+			"game": 2
+		}
+	},
+	{
+		"model": "raterprojectapi.review",
+		"pk": 1,
+		"fields": {
+			"review": "I am a middle school teacher and bought this for school to be played during an end-of-the-day activity period. As expected, it's a hit. The newer design isn't flimsy like I feel some newer games have become-- there's a little initial setup (punching out plastic boats and dividing up the pegs between 2 boards), but after that, it's smooth sailing (pun intended). It's a great game for a variety of ages, easy to catch on, fun to play, and keeps kids occupied a while. I am as much a fan as I was when I played as a kid!",
+			"player": 1,
+			"game": 3
+		}
+	}
+]

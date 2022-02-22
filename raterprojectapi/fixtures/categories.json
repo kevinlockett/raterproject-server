@@ -1,140 +1,133 @@
 [
 	{
-		"model": "raterprojectapi.categories",
+		"model": "raterprojectapi.category",
 		"pk": 1,
 		"fields": {
 			"label": "Action-Adventure"
 		}
 	},
 	{
-		"model": "raterprojectapi.categories",
+		"model": "raterprojectapi.category",
 		"pk": 2,
 		"fields": {
 			"label": "Battle"
 		}
 	},
 	{
-		"model": "raterprojectapi.categories",
+		"model": "raterprojectapi.category",
 		"pk": 3,
+		"fields": {
+			"label": "Board"
+		}
+	},
+	{
+		"model": "raterprojectapi.category",
+		"pk": 4,
 		"fields": {
 			"label": "Card"
 		}
 	},
 	{
-		"model": "raterprojectapi.categories",
-		"pk": 4,
+		"model": "raterprojectapi.category",
+		"pk": 5,
 		"fields": {
 			"label": "Cooperative"
 		}
 	},
 	{
-		"model": "raterprojectapi.categories",
-		"pk": 5,
+		"model": "raterprojectapi.category",
+		"pk": 6,
 		"fields": {
 			"label": "Deck Building"
 		}
 	},
 	{
-		"model": "raterprojectapi.categories",
-		"pk": 6,
+		"model": "raterprojectapi.category",
+		"pk": 7,
 		"fields": {
 			"label": "Dice"
 		}
 	},
 	{
-		"model": "raterprojectapi.categories",
-		"pk": 7,
-		"fields": {
-			"label": "Card"
-		}
-	},
-	{
-		"model": "raterprojectapi.categories",
+		"model": "raterprojectapi.category",
 		"pk": 8,
-		"fields": {
-			"label": "Deck Building"
-		}
-	},
-	{
-		"model": "raterprojectapi.categories",
-		"pk": 9,
 		"fields": {
 			"label": "Miniature"
 		}
 	},
 	{
-		"model": "raterprojectapi.categories",
-		"pk": 10,
+		"model": "raterprojectapi.category",
+		"pk": 9,
 		"fields": {
 			"label": "Multiplayer Online Battle Arena (MOBA)"
 		}
 	},
 	{
-		"model": "raterprojectapi.categories",
-		"pk": 11,
+		"model": "raterprojectapi.category",
+		"pk": 10,
 		"fields": {
 			"label": "Platformer"
 		}
 	},
 	{
-		"model": "raterprojectapi.categories",
-		"pk": 12,
+		"model": "raterprojectapi.category",
+		"pk": 11,
 		"fields": {
 			"label": "Puzzlers and Party Games"
 		}
 	},
 	{
-		"model": "raterprojectapi.categories",
-		"pk": 13,
+		"model": "raterprojectapi.category",
+		"pk": 12,
 		"fields": {
 			"label": "Real-time Strategy (RTS)"
 		}
 	},
 	{
-		"model": "raterprojectapi.categories",
-		"pk": 14,
+		"model": "raterprojectapi.category",
+		"pk": 13,
 		"fields": {
 			"label": "Role-Playing (RPG, ARPG, etc.)"
 		}
 	},
 	{
-		"model": "raterprojectapi.categories",
-		"pk": 15,
+		"model": "raterprojectapi.category",
+		"pk": 14,
 		"fields": {
 			"label": "Sandbox"
 		}
 	},
 	{
-		"model": "raterprojectapi.categories",
-		"pk": 16,
+		"model": "raterprojectapi.category",
+		"pk": 15,
 		"fields": {
 			"label": "Shooters (FPS and TPS)"
 		}
 	},
 	{
-		"model": "raterprojectapi.categories",
-		"pk": 17,
+		"model": "raterprojectapi.category",
+		"pk": 16,
 		"fields": {
 			"label": "Simulation"
 		}
 	},
 	{
-		"model": "raterprojectapi.categories",
-		"pk": 18,
+		"model": "raterprojectapi.category",
+		"pk": 17,
 		"fields": {
 			"label": "Sports"
 		}
 	},
 	{
-		"model": "raterprojectapi.categories",
-		"pk": 19,
+		"model": "raterprojectapi.category",
+		"pk": 18,
 		"fields": {
 			"label": "Strategy"
 		}
 	},
 	{
-		"model": "raterprojectapi.categories",
-		"pk": 20,
+		"model": "raterprojectapi.category",
+		"pk": 19,
 		"fields": {
 			"label": "Survival and horror"
 		}

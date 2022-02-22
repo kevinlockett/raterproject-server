@@ -1,0 +1,29 @@
+[
+	{
+		"model": "raterprojectapi.picture",
+		"pk": 1,
+		"fields": {
+			"image": "monopoly.png",
+			"game": 1,
+			"player": 1
+		}
+	},
+	{
+		"model": "raterprojectapi.picture",
+		"pk": 2,
+		"fields": {
+			"image": "life.png",
+			"game": 2,
+			"player": 1
+		}
+	},
+	{
+		"model": "raterprojectapi.picture",
+		"pk": 3,
+		"fields": {
+			"image": "battleship.png",
+			"game": 3,
+			"player": 1
+		}
+	}
+]
