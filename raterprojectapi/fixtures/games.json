@@ -1,0 +1,44 @@
+[
+	{
+		"model": "raterprojectapi.game",
+		"pk": 1,
+		"fields": {
+			"title": "Monopoly",
+			"description": "Classic, multi-player economics-themed property trading board game.",
+			"designer": "Parker Brothers",
+			"year_released": "1935-01-01",
+			"number_of_players": 8,
+			"est_time_to_play": "01:30",
+			"age_recommendation": 8,
+			"player": 1
+		}
+	},
+	{
+		"model": "raterprojectapi.game",
+		"pk": 2,
+		"fields": {
+			"title": "Life",
+			"description": "The first popular parlor game in the US! A simulation of a person's journey through life, from college to retirement with jobs, marriage, and possible children along the way.",
+			"designer": "Milton Bradley",
+			"year_released": "1960-01-01",
+			"number_of_players": 6,
+			"est_time_to_play": "01:00",
+			"age_recommendation": 8,
+			"player": 1
+		}
+	},
+	{
+		"model": "raterprojectapi.game",
+		"pk": 3,
+		"fields": {
+			"title": "Battleship",
+			"description": "Strategic guessing game of conflict on the high seas for two players.",
+			"designer": "Milton Bradley",
+			"year_released": "1967-01-01",
+			"number_of_players": 2,
+			"est_time_to_play": "00:20",
+			"age_recommendation": 7,
+			"player": 1
+		}
+	}
+]
