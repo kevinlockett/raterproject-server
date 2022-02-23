@@ -4,16 +4,17 @@ from rest_framework.authtoken.models import Token
 from rest_framework.decorators import api_view, permission_classes
 from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
+from rest_framework import status
 
 from raterprojectapi.models import Player
 
 @api_view(['POST'])
 @permission_classes([AllowAny])
 def login_user(request):
-    '''Handles the authentication of a gamer
+    '''Handles the authentication of a player
 
     Method arguments:
-      request -- The full HTTP request object
+        request -- The full HTTP request object
     '''
     username = request.data['username']
     password = request.data['password']
@@ -41,7 +42,7 @@ def register_user(request):
     '''Handles the creation of a new player for authentication
 
     Method arguments:
-      request -- The full HTTP request object
+        request -- The full HTTP request object
     '''
 
     # Create a new user by invoking the `create_user` helper method
@@ -53,14 +54,14 @@ def register_user(request):
         last_name=request.data['last_name']
     )
 
-    # Now save the extra info in the levelupapi_gamer table
+    # Now save the extra info in the raterprojectapi_gamer table
     player = Player.objects.create(
         bio=request.data['bio'],
         user=new_user
     )
 
     # Use the REST Framework's token generator on the new user account
-    token = Token.objects.create(user=gamer.user)
+    token = Token.objects.create(user=player.user)
     # Return the token to the client
     data = { 'token': token.key }
-    return Response(data)
+    return Response(data, status=status.HTTP_201_CREATED)
